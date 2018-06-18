@@ -37,7 +37,11 @@ function mapStateToProps(state) {
 //on the bookList container.
 function mapDispatchtoProps (dispatch) {
     //whenever select book is called,the result should be passed to all reducers.//
-    return bindActionCreators ({ selectBook: selectBook },dispatch );
+    return bindActionCreators ({ selectBook: selectook
+    },
+    dispatch
+
+    )
 }
 //Promote vooklist from component to container. It needs to know about
 //this new dispatch method, selectBook. Make it available as a prop.
